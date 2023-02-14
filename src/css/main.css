@@ -1,0 +1,34 @@
+.currency-converter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+}
+
+.amount-input,
+.result-input {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  text-align: right;
+}
+
+.currency-select {
+  width: 150px;
+  height: 50px;
+  padding: 10px;
+  font-size: 18px;
+  margin-left: 10px;
+}
+
+.to {
+  font-size: 24px;
+  margin: 0 20px;
+}
