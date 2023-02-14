@@ -8,10 +8,8 @@ import Select from "@mui/material/Select";
 import MenuItem from "@mui/material/MenuItem";
 import Card from "@mui/material/Card";
 import FormControl from "@mui/material/FormControl";
-// import InputLabel from "@mui/material/InputLabel";
 
 import { FetchData } from "./utils/FetchCurrency";
-import countries_json from "./json/countries.json";
 import { debounce } from "lodash";
 
 const symbolsURL = "https://api.apilayer.com/fixer/symbols";
